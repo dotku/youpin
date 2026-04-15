@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "尤品 UPIN — 面向未来的先进材料",
+    "description": "尤品致力于为半导体、航空航天及精密工业提供新一代先进材料解决方案，服务全球客户。"
+  },
+  "nav": {
+    "home": "首页",
+    "products": "产品中心",
+    "solutions": "解决方案",
+    "news": "新闻中心",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "getInTouch": "立即咨询"
+  },
+  "hero": {
+    "eyebrow": "全球先进材料",
+    "title": "为未来科技打造核心材料。",
+    "subtitle": "从宽禁带半导体到精密光学，我们与全球 60 多个国家的行业领导者合作，把研发成果转化为稳定可靠的供应。",
+    "ctaPrimary": "查看产品",
+    "ctaSecondary": "观看宣传片"
+  },
+  "stats": {
+    "clients": "全球客户",
+    "countries": "服务国家",
+    "patents": "专利及知识产权",
+    "years": "研发年限"
+  },
+  "products": {
+    "title": "推荐产品",
+    "subtitle": "聚焦核心材料，专注真正重要的产品。",
+    "viewAll": "查看全部产品",
+    "items": {
+      "substrate": {
+        "title": "半导体衬底",
+        "desc": "面向新一代功率与射频器件的高纯度衬底晶圆。"
+      },
+      "heatsink": {
+        "title": "热沉散热片",
+        "desc": "行业领先的高导热材料，助力高功率电子封装。"
+      },
+      "optics": {
+        "title": "精密光学窗口",
+        "desc": "航空级光学窗口，适用于严苛环境下的成像与传感。"
+      },
+      "crystal": {
+        "title": "培育晶体",
+        "desc": "可定制彩色的特种晶体，面向珠宝及工业应用。"
+      }
+    }
+  },
+  "about": {
+    "title": "关于尤品",
+    "body": "尤品是一家全球化的先进材料公司，致力于为未来科技构建稳定的供应基础。公司通过 ISO 9001 质量体系认证，持续投入研发，陪伴客户从早期原型走向规模量产。",
+    "highlights": {
+      "rd": "40 多名工程师组成的专属研发中心",
+      "quality": "ISO 9001 全流程质量管理体系",
+      "scale": "覆盖小批量试产到百万量级的交付能力"
+    },
+    "learnMore": "了解更多"
+  },
+  "solutions": {
+    "title": "解决方案",
+    "subtitle": "面向对材料要求最严苛的行业。",
+    "items": {
+      "semi": { "title": "半导体", "desc": "面向功率与射频的衬底、外延及热管理方案。" },
+      "aero": { "title": "航空航天", "desc": "适用于严苛环境的光学窗口与结构材料。" },
+      "medical": { "title": "医疗器械", "desc": "面向关键医疗设备的生物相容、高精度部件。" },
+      "luxury": { "title": "奢侈品", "desc": "可追溯来源的实验室培育特种晶体。" }
+    }
+  },
+  "news": {
+    "title": "最新动态",
+    "subtitle": "研究进展、里程碑与行业洞察。",
+    "viewAll": "查看全部新闻",
+    "items": {
+      "n1": { "date": "2026 年 3 月", "title": "尤品开设第二座晶圆厂，以满足全球日益增长的需求" },
+      "n2": { "date": "2026 年 2 月", "title": "全新热沉散热片刷新 2,600 W/m·K 基准" },
+      "n3": { "date": "2026 年 1 月", "title": "与全球领先航空 OEM 达成战略合作" }
+    }
+  },
+  "contact": {
+    "title": "一起开启下一步。",
+    "subtitle": "无论您正在原型验证、供应商导入还是规模量产，我们的团队都随时为您提供支持。",
+    "emailLabel": "邮箱",
+    "phoneLabel": "电话",
+    "hqLabel": "总部地址",
+    "hq": "中国合肥·创新产业园 A 栋",
+    "cta": "联系销售"
+  },
+  "promo": {
+    "eyebrow": "走进尤品",
+    "title": "让金刚石成为技术的工厂。",
+    "subtitle": "一段短片,带你了解每一片晶圆背后的工艺、团队与精度。",
+    "watch": "播放宣传片"
+  },
+  "contactForm": {
+    "name": "姓名",
+    "email": "邮箱",
+    "phone": "电话",
+    "company": "公司",
+    "message": "留言",
+    "submit": "发送消息",
+    "submitting": "发送中…",
+    "successTitle": "感谢您的留言。",
+    "successBody": "我们会尽快通过您提供的邮箱与您联系。",
+    "sendAnother": "再发一条"
+  },
+  "footer": {
+    "tagline": "先进材料 · 全球布局 · 极致品质",
+    "company": "公司",
+    "resources": "资源",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 政策",
+    "rights": "保留所有权利。"
+  },
+  "language": "语言"
+}

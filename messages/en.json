@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "UPIN — Advanced Materials for a Brighter Future",
+    "description": "UPIN delivers next-generation material solutions engineered for semiconductors, aerospace and precision industries worldwide."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "solutions": "Solutions",
+    "news": "News",
+    "about": "About",
+    "contact": "Contact",
+    "getInTouch": "Get in Touch"
+  },
+  "hero": {
+    "eyebrow": "Global Advanced Materials",
+    "title": "Engineering the materials that power tomorrow.",
+    "subtitle": "From wide-bandgap semiconductors to precision optics, our team partners with industry leaders across 60+ countries to turn research into reliable supply.",
+    "ctaPrimary": "Explore products",
+    "ctaSecondary": "Watch intro video"
+  },
+  "stats": {
+    "clients": "Global clients",
+    "countries": "Countries served",
+    "patents": "Patents & IP",
+    "years": "Years of R&D"
+  },
+  "products": {
+    "title": "Featured Products",
+    "subtitle": "A focused portfolio, built around materials that matter.",
+    "viewAll": "View all products",
+    "items": {
+      "substrate": {
+        "title": "Semiconductor Substrates",
+        "desc": "High-purity wafers engineered for next-generation power and RF devices."
+      },
+      "heatsink": {
+        "title": "Thermal Heat Spreaders",
+        "desc": "Industry-leading thermal conductivity for high-power electronics packaging."
+      },
+      "optics": {
+        "title": "Precision Optical Windows",
+        "desc": "Aerospace-grade windows tuned for harsh-environment imaging and sensing."
+      },
+      "crystal": {
+        "title": "Lab-Grown Crystals",
+        "desc": "Custom-color specialty crystals for jewelry and industrial applications."
+      }
+    }
+  },
+  "about": {
+    "title": "About UPIN",
+    "body": "UPIN is a global advanced-materials company building the supply backbone for tomorrow's technology. We operate ISO 9001 certified facilities, invest heavily in R&D, and partner with customers from early prototype through high-volume manufacturing.",
+    "highlights": {
+      "rd": "Dedicated R&D center with 40+ engineers",
+      "quality": "ISO 9001 certified end-to-end quality system",
+      "scale": "Proven scale: from pilot runs to millions of units"
+    },
+    "learnMore": "Learn more"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "subtitle": "Built for the industries that demand the most from their materials.",
+    "items": {
+      "semi": { "title": "Semiconductors", "desc": "Substrates, epitaxy and thermal management for power and RF." },
+      "aero": { "title": "Aerospace", "desc": "Optical windows and structural materials for harsh environments." },
+      "medical": { "title": "Medical Devices", "desc": "Biocompatible, high-precision components for critical devices." },
+      "luxury": { "title": "Luxury Goods", "desc": "Lab-grown specialty crystals with verifiable provenance." }
+    }
+  },
+  "news": {
+    "title": "Latest News",
+    "subtitle": "Research, milestones and industry insights.",
+    "viewAll": "View all news",
+    "items": {
+      "n1": { "date": "Mar 2026", "title": "UPIN opens second wafer fab to meet rising global demand" },
+      "n2": { "date": "Feb 2026", "title": "New thermal heat spreader sets 2,600 W/m·K benchmark" },
+      "n3": { "date": "Jan 2026", "title": "Strategic partnership announced with leading aerospace OEM" }
+    }
+  },
+  "contact": {
+    "title": "Let's build what's next, together.",
+    "subtitle": "Whether you are prototyping, qualifying a supplier or scaling to volume, our team is ready to help.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "hqLabel": "Headquarters",
+    "hq": "Building A, Innovation Park, Hefei, China",
+    "cta": "Contact sales"
+  },
+  "promo": {
+    "eyebrow": "Watch our story",
+    "title": "Inside the fab where diamonds become technology.",
+    "subtitle": "A short look at the process, the people, and the precision behind every wafer we ship.",
+    "watch": "Play promo"
+  },
+  "contactForm": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "message": "Message",
+    "submit": "Send message",
+    "submitting": "Sending…",
+    "successTitle": "Thanks — message received.",
+    "successBody": "We'll get back to you shortly at the email you provided.",
+    "sendAnother": "Send another"
+  },
+  "footer": {
+    "tagline": "Advanced materials. Global reach. Relentless quality.",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "rights": "All rights reserved."
+  },
+  "language": "Language"
+}

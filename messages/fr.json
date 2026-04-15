@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "UPIN — Matériaux avancés pour un avenir meilleur",
+    "description": "UPIN conçoit des solutions de matériaux de nouvelle génération pour les semi-conducteurs, l'aérospatiale et les industries de précision dans le monde entier."
+  },
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "solutions": "Solutions",
+    "news": "Actualités",
+    "about": "À propos",
+    "contact": "Contact",
+    "getInTouch": "Nous contacter"
+  },
+  "hero": {
+    "eyebrow": "Matériaux avancés à l'échelle mondiale",
+    "title": "Concevoir les matériaux qui alimenteront demain.",
+    "subtitle": "Des semi-conducteurs à large bande interdite à l'optique de précision, nos équipes accompagnent des leaders industriels dans plus de 60 pays pour transformer la recherche en approvisionnement fiable.",
+    "ctaPrimary": "Découvrir les produits",
+    "ctaSecondary": "Voir la vidéo"
+  },
+  "stats": {
+    "clients": "Clients mondiaux",
+    "countries": "Pays servis",
+    "patents": "Brevets et PI",
+    "years": "Années de R&D"
+  },
+  "products": {
+    "title": "Produits phares",
+    "subtitle": "Un portefeuille ciblé, centré sur les matériaux qui comptent.",
+    "viewAll": "Voir tous les produits",
+    "items": {
+      "substrate": {
+        "title": "Substrats semi-conducteurs",
+        "desc": "Plaquettes haute pureté pour les dispositifs de puissance et RF de nouvelle génération."
+      },
+      "heatsink": {
+        "title": "Dissipateurs thermiques",
+        "desc": "Conductivité thermique leader pour l'électronique de puissance."
+      },
+      "optics": {
+        "title": "Fenêtres optiques de précision",
+        "desc": "Fenêtres de qualité aérospatiale pour l'imagerie en environnements extrêmes."
+      },
+      "crystal": {
+        "title": "Cristaux cultivés",
+        "desc": "Cristaux spéciaux sur mesure pour la joaillerie et l'industrie."
+      }
+    }
+  },
+  "about": {
+    "title": "À propos de UPIN",
+    "body": "UPIN est une entreprise mondiale de matériaux avancés qui construit l'épine dorsale d'approvisionnement des technologies de demain. Nous opérons des sites certifiés ISO 9001, investissons fortement en R&D et accompagnons nos clients du prototype à la production en grande série.",
+    "highlights": {
+      "rd": "Centre R&D dédié avec plus de 40 ingénieurs",
+      "quality": "Système qualité ISO 9001 de bout en bout",
+      "scale": "Échelle éprouvée : du pilote à plusieurs millions d'unités"
+    },
+    "learnMore": "En savoir plus"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "subtitle": "Pour les industries les plus exigeantes en matière de matériaux.",
+    "items": {
+      "semi": { "title": "Semi-conducteurs", "desc": "Substrats, épitaxie et gestion thermique pour la puissance et la RF." },
+      "aero": { "title": "Aérospatiale", "desc": "Fenêtres optiques et matériaux structuraux pour environnements extrêmes." },
+      "medical": { "title": "Dispositifs médicaux", "desc": "Composants biocompatibles et de haute précision pour applications critiques." },
+      "luxury": { "title": "Produits de luxe", "desc": "Cristaux cultivés en laboratoire avec une provenance vérifiable." }
+    }
+  },
+  "news": {
+    "title": "Actualités",
+    "subtitle": "Recherche, jalons et perspectives sectorielles.",
+    "viewAll": "Toutes les actualités",
+    "items": {
+      "n1": { "date": "Mars 2026", "title": "UPIN ouvre une deuxième fab pour répondre à la demande mondiale" },
+      "n2": { "date": "Février 2026", "title": "Notre nouveau dissipateur atteint 2 600 W/m·K" },
+      "n3": { "date": "Janvier 2026", "title": "Partenariat stratégique annoncé avec un grand OEM aérospatial" }
+    }
+  },
+  "contact": {
+    "title": "Construisons la suite, ensemble.",
+    "subtitle": "Prototypage, qualification fournisseur ou montée en volume : notre équipe est prête à vous accompagner.",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Téléphone",
+    "hqLabel": "Siège social",
+    "hq": "Bâtiment A, Parc de l'Innovation, Hefei, Chine",
+    "cta": "Contacter les ventes"
+  },
+  "promo": {
+    "eyebrow": "Notre histoire",
+    "title": "Dans l'usine où le diamant devient technologie.",
+    "subtitle": "Un bref aperçu du procédé, des équipes et de la précision derrière chaque wafer.",
+    "watch": "Voir la vidéo"
+  },
+  "contactForm": {
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "company": "Entreprise",
+    "message": "Message",
+    "submit": "Envoyer",
+    "submitting": "Envoi…",
+    "successTitle": "Merci — message bien reçu.",
+    "successBody": "Nous vous répondrons rapidement à l'adresse indiquée.",
+    "sendAnother": "Envoyer un autre"
+  },
+  "footer": {
+    "tagline": "Matériaux avancés. Portée mondiale. Qualité sans compromis.",
+    "company": "Entreprise",
+    "resources": "Ressources",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "cookies": "Cookies",
+    "rights": "Tous droits réservés."
+  },
+  "language": "Langue"
+}

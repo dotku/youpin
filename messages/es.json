@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "UPIN — Materiales avanzados para un futuro mejor",
+    "description": "UPIN ofrece soluciones de materiales de nueva generación para semiconductores, aeroespacial e industrias de precisión en todo el mundo."
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "solutions": "Soluciones",
+    "news": "Noticias",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "getInTouch": "Contáctanos"
+  },
+  "hero": {
+    "eyebrow": "Materiales avanzados globales",
+    "title": "Diseñamos los materiales que impulsarán el mañana.",
+    "subtitle": "Desde semiconductores de banda ancha hasta óptica de precisión, colaboramos con líderes industriales en más de 60 países para convertir la investigación en un suministro fiable.",
+    "ctaPrimary": "Ver productos",
+    "ctaSecondary": "Ver video de presentación"
+  },
+  "stats": {
+    "clients": "Clientes globales",
+    "countries": "Países atendidos",
+    "patents": "Patentes y PI",
+    "years": "Años de I+D"
+  },
+  "products": {
+    "title": "Productos destacados",
+    "subtitle": "Un portafolio enfocado en los materiales que realmente importan.",
+    "viewAll": "Ver todos los productos",
+    "items": {
+      "substrate": {
+        "title": "Sustratos para semiconductores",
+        "desc": "Obleas de alta pureza para dispositivos de potencia y RF de nueva generación."
+      },
+      "heatsink": {
+        "title": "Disipadores térmicos",
+        "desc": "Conductividad térmica líder para electrónica de alta potencia."
+      },
+      "optics": {
+        "title": "Ventanas ópticas de precisión",
+        "desc": "Ventanas de calidad aeroespacial para entornos exigentes."
+      },
+      "crystal": {
+        "title": "Cristales cultivados",
+        "desc": "Cristales especiales a medida para joyería e industria."
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre UPIN",
+    "body": "UPIN es una empresa global de materiales avanzados que construye la base de suministro para las tecnologías del mañana. Operamos instalaciones certificadas ISO 9001, invertimos fuertemente en I+D y acompañamos a nuestros clientes desde el prototipo hasta la producción en serie.",
+    "highlights": {
+      "rd": "Centro propio de I+D con más de 40 ingenieros",
+      "quality": "Sistema de calidad ISO 9001 de extremo a extremo",
+      "scale": "Escala probada: desde pilotos hasta millones de unidades"
+    },
+    "learnMore": "Más información"
+  },
+  "solutions": {
+    "title": "Soluciones",
+    "subtitle": "Pensadas para los sectores más exigentes con sus materiales.",
+    "items": {
+      "semi": { "title": "Semiconductores", "desc": "Sustratos, epitaxia y gestión térmica para potencia y RF." },
+      "aero": { "title": "Aeroespacial", "desc": "Ventanas ópticas y materiales estructurales para entornos exigentes." },
+      "medical": { "title": "Dispositivos médicos", "desc": "Componentes biocompatibles y de alta precisión para usos críticos." },
+      "luxury": { "title": "Productos de lujo", "desc": "Cristales cultivados en laboratorio con procedencia verificable." }
+    }
+  },
+  "news": {
+    "title": "Noticias",
+    "subtitle": "Investigación, hitos y tendencias del sector.",
+    "viewAll": "Ver todas las noticias",
+    "items": {
+      "n1": { "date": "Mar 2026", "title": "UPIN abre su segunda planta para atender la demanda global" },
+      "n2": { "date": "Feb 2026", "title": "Nuestro nuevo disipador térmico alcanza 2.600 W/m·K" },
+      "n3": { "date": "Ene 2026", "title": "Anunciamos una alianza estratégica con un OEM aeroespacial líder" }
+    }
+  },
+  "contact": {
+    "title": "Construyamos lo que viene, juntos.",
+    "subtitle": "Ya sea prototipando, cualificando proveedores o escalando producción, nuestro equipo está listo para ayudar.",
+    "emailLabel": "Correo",
+    "phoneLabel": "Teléfono",
+    "hqLabel": "Sede",
+    "hq": "Edificio A, Parque de Innovación, Hefei, China",
+    "cta": "Contactar ventas"
+  },
+  "promo": {
+    "eyebrow": "Nuestra historia",
+    "title": "Dentro de la fábrica donde el diamante se vuelve tecnología.",
+    "subtitle": "Un vistazo al proceso, al equipo y a la precisión detrás de cada oblea.",
+    "watch": "Reproducir video"
+  },
+  "contactForm": {
+    "name": "Nombre",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "company": "Empresa",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "submitting": "Enviando…",
+    "successTitle": "Gracias — mensaje recibido.",
+    "successBody": "Te responderemos pronto al correo indicado.",
+    "sendAnother": "Enviar otro"
+  },
+  "footer": {
+    "tagline": "Materiales avanzados. Alcance global. Calidad sin concesiones.",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "cookies": "Cookies",
+    "rights": "Todos los derechos reservados."
+  },
+  "language": "Idioma"
+}

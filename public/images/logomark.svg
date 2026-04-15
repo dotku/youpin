@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true">
+  <defs>
+    <linearGradient id="ypmG" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#59acff"/>
+      <stop offset="55%" stop-color="#2f8bff"/>
+      <stop offset="100%" stop-color="#184a9c"/>
+    </linearGradient>
+    <linearGradient id="ypmGlight" x1="0" y1="0" x2="20" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#bcdfff"/>
+      <stop offset="100%" stop-color="#59acff"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#ypmG)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M19 21 L32 36 L45 21"/>
+    <path d="M32 36 L32 50"/>
+  </g>
+  <g fill="url(#ypmG)">
+    <circle cx="19" cy="21" r="6.5"/>
+    <circle cx="45" cy="21" r="6.5"/>
+    <circle cx="32" cy="50" r="6.5"/>
+  </g>
+  <circle cx="32" cy="36" r="3.2" fill="url(#ypmGlight)"/>
+</svg>
