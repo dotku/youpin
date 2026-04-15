@@ -4,6 +4,9 @@ export const SITE_URL =
 
 export const SITE_NAME = "UPIN";
 
+export const PROMO_VIDEO_URL =
+  process.env.NEXT_PUBLIC_PROMO_VIDEO_URL ?? "/videos/promo.mp4";
+
 export const OG_LOCALE: Record<string, string> = {
   en: "en_US",
   zh: "zh_CN",

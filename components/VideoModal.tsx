@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { PROMO_VIDEO_URL } from "@/lib/site";
 
 export default function VideoModal({ label }: { label: string }) {
   const [open, setOpen] = useState(false);
@@ -45,7 +46,7 @@ export default function VideoModal({ label }: { label: string }) {
             </button>
             <video
               ref={videoRef}
-              src="/videos/promo.mp4"
+              src={PROMO_VIDEO_URL}
               poster="/images/hero/hero-wafer.jpg"
               controls
               autoPlay

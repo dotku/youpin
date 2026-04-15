@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
+import { PROMO_VIDEO_URL } from "@/lib/site";
 
 export default function Promo() {
   const t = useTranslations("promo");
@@ -33,7 +34,7 @@ export default function Promo() {
           <div className="relative aspect-video">
             <video
               ref={videoRef}
-              src="/videos/promo.mp4"
+              src={PROMO_VIDEO_URL}
               poster="/images/hero/hero-wafer.jpg"
               preload="none"
               controls={playing}
