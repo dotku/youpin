@@ -115,5 +115,42 @@
     "cookies": "Cookies",
     "rights": "All rights reserved."
   },
-  "language": "Language"
+  "language": "Language",
+  "admin": {
+    "title": "UPIN Admin",
+    "signOut": "Sign out",
+    "accessDeniedTitle": "Access denied",
+    "accessDeniedBody": "{email} is not on the admin whitelist.",
+    "leads": {
+      "title": "Leads",
+      "subtitle": "Messages from the contact form. Reply from the detail view.",
+      "empty": "No leads yet.",
+      "open": "Open",
+      "received": "Received",
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "locale": "Locale",
+      "status": "Status"
+    },
+    "status": {
+      "new": "New",
+      "in_progress": "In progress",
+      "replied": "Replied",
+      "closed": "Closed",
+      "spam": "Spam"
+    },
+    "detail": {
+      "back": "All leads",
+      "receivedOn": "Received {date} · locale {locale}",
+      "originalMessage": "Original message",
+      "repliesHeading": "Replies ({count})",
+      "replyTo": "Reply to {name}",
+      "replyHint": "Sends from your verified sender. Customer replies route back to you.",
+      "replyPlaceholder": "Write your reply…",
+      "sending": "Sending…",
+      "sendReply": "Send reply",
+      "sendFailed": "Send failed"
+    }
+  }
 }

@@ -5,8 +5,9 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { routing, rtlLocales, type Locale } from "@/i18n/routing";
+import { routing } from "@/i18n/routing";
 import { SITE_URL, SITE_NAME, OG_LOCALE } from "@/lib/site";
+import { VideoPlayerProvider } from "@/components/VideoPlayerProvider";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -82,8 +83,6 @@ export default async function LocaleLayout({
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
 
-  const dir = rtlLocales.includes(locale as Locale) ? "rtl" : "ltr";
-
   const orgJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -102,20 +101,18 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html lang={locale} dir={dir}>
-      <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
-        />
-        <Analytics />
-        <SpeedInsights />
-      </body>
-    </html>
+    <NextIntlClientProvider>
+      <VideoPlayerProvider>{children}</VideoPlayerProvider>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
+      />
+      <Analytics />
+      <SpeedInsights />
+    </NextIntlClientProvider>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import HeroVideo from "./HeroVideo";
 import VideoModal from "./VideoModal";
 
 const tiles = [
@@ -43,17 +44,10 @@ export default function Hero() {
           </div>
 
           <div className="relative">
-            <div className="absolute -inset-6 rounded-3xl bg-gradient-to-br from-brand-500/30 via-transparent to-brand-900/40 blur-2xl" aria-hidden />
+            <div className="absolute -inset-6 rounded-3xl bg-linear-to-br from-brand-500/30 via-transparent to-brand-900/40 blur-2xl" aria-hidden />
             <div className="relative rounded-3xl border border-white/15 bg-white/5 p-3 backdrop-blur sm:p-6">
-              <div className="relative mb-3 overflow-hidden rounded-2xl sm:mb-4">
-                <Image
-                  src="/images/hero/hero-wafer.jpg"
-                  alt="Polycrystalline diamond wafer"
-                  width={1280}
-                  height={720}
-                  priority
-                  className="h-48 w-full object-cover sm:h-64"
-                />
+              <div className="relative mb-3 sm:mb-4">
+                <HeroVideo alt="Polycrystalline diamond wafer" />
               </div>
               <div className="grid grid-cols-4 gap-2 sm:gap-3">
                 {tiles.map((tile) => (

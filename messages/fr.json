@@ -115,5 +115,42 @@
     "cookies": "Cookies",
     "rights": "Tous droits réservés."
   },
-  "language": "Langue"
+  "language": "Langue",
+  "admin": {
+    "title": "UPIN Admin",
+    "signOut": "Se déconnecter",
+    "accessDeniedTitle": "Accès refusé",
+    "accessDeniedBody": "{email} n'est pas sur la liste des administrateurs.",
+    "leads": {
+      "title": "Prospects",
+      "subtitle": "Messages du formulaire de contact. Répondez depuis la vue détaillée.",
+      "empty": "Aucun prospect pour l'instant.",
+      "open": "Ouvrir",
+      "received": "Reçu",
+      "name": "Nom",
+      "email": "E-mail",
+      "company": "Entreprise",
+      "locale": "Langue",
+      "status": "Statut"
+    },
+    "status": {
+      "new": "Nouveau",
+      "in_progress": "En cours",
+      "replied": "Répondu",
+      "closed": "Fermé",
+      "spam": "Spam"
+    },
+    "detail": {
+      "back": "Tous les prospects",
+      "receivedOn": "Reçu {date} · langue {locale}",
+      "originalMessage": "Message d'origine",
+      "repliesHeading": "Réponses ({count})",
+      "replyTo": "Répondre à {name}",
+      "replyHint": "Envoyé depuis votre expéditeur vérifié. Les réponses reviennent vers vous.",
+      "replyPlaceholder": "Rédigez votre réponse…",
+      "sending": "Envoi…",
+      "sendReply": "Envoyer la réponse",
+      "sendFailed": "Échec de l'envoi"
+    }
+  }
 }

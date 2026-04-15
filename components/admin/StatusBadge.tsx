@@ -6,14 +6,20 @@ const styles: Record<string, string> = {
   spam: "bg-rose-100 text-rose-800",
 };
 
-export default function StatusBadge({ status }: { status: string }) {
+export default function StatusBadge({
+  status,
+  label,
+}: {
+  status: string;
+  label?: string;
+}) {
   return (
     <span
       className={`inline-flex rounded-full px-2.5 py-0.5 text-xs font-medium ${
         styles[status] ?? "bg-slate-100 text-slate-700"
       }`}
     >
-      {status.replace("_", " ")}
+      {label ?? status.replace("_", " ")}
     </span>
   );
 }

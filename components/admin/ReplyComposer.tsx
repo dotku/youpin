@@ -3,7 +3,13 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function ReplyComposer({ id }: { id: number }) {
+export default function ReplyComposer({
+  id,
+  labels,
+}: {
+  id: number;
+  labels: { placeholder: string; sending: string; send: string; failed: string };
+}) {
   const router = useRouter();
   const [body, setBody] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
@@ -20,7 +26,7 @@ export default function ReplyComposer({ id }: { id: number }) {
     });
     if (!res.ok) {
       const data = await res.json().catch(() => ({}));
-      setError(data.error ?? "Send failed");
+      setError(data.error ?? labels.failed);
       setStatus("error");
       return;
     }
@@ -35,7 +41,7 @@ export default function ReplyComposer({ id }: { id: number }) {
         rows={6}
         value={body}
         onChange={(e) => setBody(e.target.value)}
-        placeholder="Write your reply…"
+        placeholder={labels.placeholder}
         className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20"
       />
       {error && (
@@ -50,7 +56,7 @@ export default function ReplyComposer({ id }: { id: number }) {
           disabled={status === "sending" || body.trim().length < 1}
           className="rounded-full bg-brand-700 px-5 py-2 text-sm font-semibold text-white hover:bg-brand-600 disabled:opacity-60"
         >
-          {status === "sending" ? "Sending…" : "Send reply"}
+          {status === "sending" ? labels.sending : labels.send}
         </button>
       </div>
     </div>

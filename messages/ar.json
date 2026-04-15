@@ -115,5 +115,42 @@
     "cookies": "ملفات تعريف الارتباط",
     "rights": "جميع الحقوق محفوظة."
   },
-  "language": "اللغة"
+  "language": "اللغة",
+  "admin": {
+    "title": "لوحة إدارة UPIN",
+    "signOut": "تسجيل الخروج",
+    "accessDeniedTitle": "تم رفض الوصول",
+    "accessDeniedBody": "{email} ليس ضمن قائمة المسؤولين.",
+    "leads": {
+      "title": "الرسائل",
+      "subtitle": "رسائل نموذج التواصل. يمكنك الرد من صفحة التفاصيل.",
+      "empty": "لا توجد رسائل بعد.",
+      "open": "فتح",
+      "received": "تم الاستلام",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "company": "الشركة",
+      "locale": "اللغة",
+      "status": "الحالة"
+    },
+    "status": {
+      "new": "جديد",
+      "in_progress": "قيد المعالجة",
+      "replied": "تم الرد",
+      "closed": "مغلق",
+      "spam": "مزعج"
+    },
+    "detail": {
+      "back": "كل الرسائل",
+      "receivedOn": "تم الاستلام {date} · اللغة {locale}",
+      "originalMessage": "الرسالة الأصلية",
+      "repliesHeading": "الردود ({count})",
+      "replyTo": "الرد على {name}",
+      "replyHint": "يتم الإرسال من المُرسل المعتمد لديك. ردود العميل تصل إليك.",
+      "replyPlaceholder": "اكتب ردك…",
+      "sending": "جارٍ الإرسال…",
+      "sendReply": "إرسال الرد",
+      "sendFailed": "فشل الإرسال"
+    }
+  }
 }

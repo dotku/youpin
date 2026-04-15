@@ -4,13 +4,16 @@ import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 
 const STATUSES = ["new", "in_progress", "replied", "closed", "spam"] as const;
+type StatusKey = (typeof STATUSES)[number];
 
 export default function LeadActions({
   id,
   status,
+  labels,
 }: {
   id: number;
   status: string;
+  labels: Record<StatusKey, string>;
 }) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
@@ -43,7 +46,7 @@ export default function LeadActions({
       >
         {STATUSES.map((s) => (
           <option key={s} value={s}>
-            {s.replace("_", " ")}
+            {labels[s]}
           </option>
         ))}
       </select>

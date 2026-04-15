@@ -115,5 +115,42 @@
     "cookies": "Cookies",
     "rights": "Все права защищены."
   },
-  "language": "Язык"
+  "language": "Язык",
+  "admin": {
+    "title": "UPIN Admin",
+    "signOut": "Выйти",
+    "accessDeniedTitle": "Доступ запрещён",
+    "accessDeniedBody": "{email} не в списке администраторов.",
+    "leads": {
+      "title": "Обращения",
+      "subtitle": "Сообщения из формы обратной связи. Отвечайте из детальной страницы.",
+      "empty": "Пока нет обращений.",
+      "open": "Открыть",
+      "received": "Получено",
+      "name": "Имя",
+      "email": "Эл. почта",
+      "company": "Компания",
+      "locale": "Язык",
+      "status": "Статус"
+    },
+    "status": {
+      "new": "Новое",
+      "in_progress": "В работе",
+      "replied": "Отвечено",
+      "closed": "Закрыто",
+      "spam": "Спам"
+    },
+    "detail": {
+      "back": "Все обращения",
+      "receivedOn": "Получено {date} · язык {locale}",
+      "originalMessage": "Исходное сообщение",
+      "repliesHeading": "Ответы ({count})",
+      "replyTo": "Ответ для {name}",
+      "replyHint": "Отправляется с подтверждённого адреса. Ответы клиента вернутся вам.",
+      "replyPlaceholder": "Напишите ответ…",
+      "sending": "Отправка…",
+      "sendReply": "Отправить ответ",
+      "sendFailed": "Ошибка отправки"
+    }
+  }
 }

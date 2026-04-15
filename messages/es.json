@@ -115,5 +115,42 @@
     "cookies": "Cookies",
     "rights": "Todos los derechos reservados."
   },
-  "language": "Idioma"
+  "language": "Idioma",
+  "admin": {
+    "title": "UPIN Admin",
+    "signOut": "Cerrar sesión",
+    "accessDeniedTitle": "Acceso denegado",
+    "accessDeniedBody": "{email} no está en la lista de administradores.",
+    "leads": {
+      "title": "Solicitudes",
+      "subtitle": "Mensajes del formulario de contacto. Responde desde la vista de detalle.",
+      "empty": "Aún no hay solicitudes.",
+      "open": "Abrir",
+      "received": "Recibido",
+      "name": "Nombre",
+      "email": "Correo",
+      "company": "Empresa",
+      "locale": "Idioma",
+      "status": "Estado"
+    },
+    "status": {
+      "new": "Nuevo",
+      "in_progress": "En curso",
+      "replied": "Respondido",
+      "closed": "Cerrado",
+      "spam": "Spam"
+    },
+    "detail": {
+      "back": "Todas las solicitudes",
+      "receivedOn": "Recibido {date} · idioma {locale}",
+      "originalMessage": "Mensaje original",
+      "repliesHeading": "Respuestas ({count})",
+      "replyTo": "Responder a {name}",
+      "replyHint": "Se envía desde tu remitente verificado. Las respuestas vuelven a ti.",
+      "replyPlaceholder": "Escribe tu respuesta…",
+      "sending": "Enviando…",
+      "sendReply": "Enviar respuesta",
+      "sendFailed": "Error al enviar"
+    }
+  }
 }
